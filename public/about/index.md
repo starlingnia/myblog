@@ -8,3 +8,5 @@ mathjax: true
 格点规范，模型模拟，模空间代数曲线
 
 $$\mathcal{Z} =#Transition \multiply Progress $$
+
+分配的
