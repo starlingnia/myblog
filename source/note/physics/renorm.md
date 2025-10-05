@@ -39,15 +39,15 @@ $$
 \xi = 1 + \epsilon^2 \frac{\kappa}{2m}.
 $$
 
-\[\frac{1}{\lambda} S[q] = \frac{1}{2} q^T Q q\]
+$$\frac{1}{\lambda} S[q] = \frac{1}{2} q^T Q q$$
 
-$$
+\begin{equation}
 Q = \begin{pmatrix}
-2\xi & -1 & 0 & 0 & \cdots & -1 \\
--1 & 2\xi & -1 & 0 & \cdots & 0 \\
-0 & -1 & 2\xi & -1 & \cdots & 0 \\
-0 & 0 & -1 & 2\xi & \cdots & 0 \\
+2\xi & -1   & 0    & 0    & \cdots & -1 \\
+-1   & 2\xi & -1   & 0    & \cdots & 0 \\
+0    & -1   & 2\xi & -1   & \cdots & 0 \\
+0    & 0    & -1   & 2\xi & \cdots & 0 \\
 \vdots & \vdots & \vdots & \vdots & \ddots & -1 \\
--1 & 0 & 0 & 0 & -1 & 2\xi
+-1   & 0    & 0    & 0    & -1   & 2\xi
 \end{pmatrix}
-$$
+\end{equation}
