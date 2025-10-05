@@ -10,4 +10,4 @@ mathjax: true
 简单的多体：
 
 
-$$\mathcal{Z} =\\#\text{Transition} \times \text{Progress} $$
+$$\mathcal{Z} = \# \text{Transition} \times \text{Progress} $$

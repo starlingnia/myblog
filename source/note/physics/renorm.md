@@ -41,7 +41,7 @@ $$
 
 $$\frac{1}{\lambda} S[q] = \frac{1}{2} q^T Q q$$
 
-\begin{equation}
+$$
 Q = \begin{pmatrix}
 2\xi & -1   & 0    & 0    & \cdots & -1 \\
 -1   & 2\xi & -1   & 0    & \cdots & 0 \\
@@ -50,4 +50,4 @@ Q = \begin{pmatrix}
 \vdots & \vdots & \vdots & \vdots & \ddots & -1 \\
 -1   & 0    & 0    & 0    & -1   & 2\xi
 \end{pmatrix}
-\end{equation}
+$$
