@@ -6,3 +6,5 @@ layout: page
 mathjax: true
 ---
 
+因为无穷而被误解的物理casino：
+[重整化](../note/physics/renorm)
