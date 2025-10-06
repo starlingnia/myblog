@@ -28,7 +28,7 @@ $$ \lambda = \frac{m}{\epsilon},  \qquad  \xi = 1 + \epsilon^2 \frac{\kappa}{2m}
 $$ Q  = 
 \begin{pmatrix} 
   2\xi & -1   & 0    & 0    & \cdots & -1 \\ 
-  -1   & 2\xi & -1   & 0    & \cdots & 0 \
+  -1   & 2\xi & -1   & 0    & \cdots & 0 \\
    0    & -1   & 2\xi & -1   & \cdots & 0\\
     0    & 0    & -1   & 2\xi & \cdots & 0 \\ 
     \vdots & \vdots & \vdots & \vdots & \ddots & -1\\ 
@@ -44,7 +44,9 @@ $$\det Q_{N\times N}=
 0    & 0    & -1   & 2\xi & \cdots & 0 \\
 \vdots & \vdots & \vdots & \vdots & \ddots & -1 \\ 
 0  & 0    & 0    & 0    & -1   & 2\xi 
-\end{pmatrix}_{(N-1)\times(N-1)}+
+\end{pmatrix}_{(N-1)\times(N-1)}+$$
+
+$$
 \begin{pmatrix}
  -1 & -1   & 0    & 0    & \cdots & 0 \\ 
 0  & 2\xi & -1   & 0    & \cdots & 0 \\ 
@@ -52,12 +54,13 @@ $$\det Q_{N\times N}=
 0    & 0    & -1   & 2\xi & \cdots & 0 \\ 
 \vdots & \vdots & \vdots & \vdots & \ddots & -1 \\ 
 -1   & 0    & 0    & 0    & -1   & 2\xi 
-\end{pmatrix}_{(N-1)\times(N-1)}+(-1)^{N+1}
-begin{pmatrix} 
+\end{pmatrix}_{(N-1)\times(N-1)}
++(-1)^{N+1}
+\begin{pmatrix} 
 -1 & 2\xi   & -1  & 0  & 0 & 0 & \cdots & 0 \\
  0 & -1 & 2\xi & -1  & 0 & 0  & \cdots & 0 \\
   0 & 0   & -1   & 2\xi & -1 & 0  & \cdots & 0 \\ 
-  0    & 0  & 0   & -1   & 2\xi & \cdots & 0 \\ 
-  \vdots & \vdots  & \vdots  & \vdots & \vdots & \vdots & \ddots & -1 \\ 
+  0    & 0  & 0   & -1   & 2\xi & -1 & \cdots & 0 \\ 
+  \vdots & \vdots  & \vdots  & \vdots & \vdots & \vdots & \ddots &-1 \\ 
   -1   & 0    & 0  & 0  & 0  & 0    & 0    & -1  
 \end{pmatrix}_{(N-1)\times(N-1)} $$
