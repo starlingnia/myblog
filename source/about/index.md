@@ -11,5 +11,7 @@ mathjax: true
 
 note 分为三个部分：
 <a href=../note/math>那些年物理用过的数学 </a>
+
 <a href=../note/physics/manybody>这些年有趣的物理 </a>
+
 <a href=../note/simulate>模拟简单模型的结果 </a>

@@ -15,39 +15,49 @@ mathjax: true
 从费曼的路径积分推导开始，得到场构型路径积分后，
 配分函数
 
-$$
-Z = \left(\frac{m}{2 \pi \epsilon}\right)^{\tfrac{N}{2}}
-\int \prod_{n=0}^{N-1} dq_n \, e^{-S[q]} \Big|_{q_N = q_0}
-$$
+$$ Z = \left(\frac{m}{2 \pi \epsilon}\right)^{\tfrac{N}{2}} \int \prod_{n=0}^{N-1} dq_n \, e^{-S[q]} \Big|_{q_N = q_0} $$  
 
+ $$ S[q] = \sum_{n=0}^{N-1} \epsilon \left[     \tfrac{1}{2} m \left( \frac{q_{n+1} - q_n}{\epsilon} \right)^2     + \tfrac{1}{4} \kappa \left( q_{n+1}^2 + q_n^2 \right) \right] $$ 
 
-$$
-S[q] = \sum_{n=0}^{N-1} \epsilon \left[
-    \tfrac{1}{2} m \left( \frac{q_{n+1} - q_n}{\epsilon} \right)^2
-    + \tfrac{1}{4} \kappa \left( q_{n+1}^2 + q_n^2 \right)
-\right]
-$$
+ $$ \frac{1}{\lambda} S[q] =  \sum_{n=0}^{N-1} \xi q_n^2 -\sum_{n=0}^{N-1} \tfrac{1}{2}(q_{n+1} q_n + q_n q_{n+1}) $$
 
-$$
-\frac{1}{\lambda} S[q] = 
-\sum_{n=0}^{N-1} \xi q_n^2 -\sum_{n=0}^{N-1} \tfrac{1}{2}(q_{n+1} q_n + q_n q_{n+1})
-$$
+$$ \lambda = \frac{m}{\epsilon},  \qquad  \xi = 1 + \epsilon^2 \frac{\kappa}{2m}. $$ 
 
-$$
-\lambda = \frac{m}{\epsilon}, 
-\qquad 
-\xi = 1 + \epsilon^2 \frac{\kappa}{2m}.
-$$
-
-$$\frac{1}{\lambda} S[q] = \frac{1}{2} q^T Q q$$
-
-\begin{equation}
-Q = \begin{pmatrix}
-2\xi & -1   & 0    & 0    & \cdots & -1 \\
--1   & 2\xi & -1   & 0    & \cdots & 0 \\
-0    & -1   & 2\xi & -1   & \cdots & 0 \\
+ $$\frac{1}{\lambda} S[q] = \frac{1}{2} q^T Q q$$ 
+ 
+$$ Q  = 
+\begin{pmatrix} 
+  2\xi & -1   & 0    & 0    & \cdots & -1 \\ 
+  -1   & 2\xi & -1   & 0    & \cdots & 0 \
+   0    & -1   & 2\xi & -1   & \cdots & 0\\
+    0    & 0    & -1   & 2\xi & \cdots & 0 \\ 
+    \vdots & \vdots & \vdots & \vdots & \ddots & -1\\ 
+    -1   & 0    & 0    & 0    & -1   & 2\xi 
+\end{pmatrix}$$
+    
+$$\det Q_{N\times N}= 
+2\xi 
+\begin{pmatrix} 
+2\xi & -1   & 0    & 0    & \cdots & 0\\ 
+-1   & 2\xi & -1   & 0    & \cdots & 0 \\ 
+0    & -1   & 2\xi & -1   & \cdots & 0 \\ 
 0    & 0    & -1   & 2\xi & \cdots & 0 \\
-\vdots & \vdots & \vdots & \vdots & \ddots & -1 \\
--1   & 0    & 0    & 0    & -1   & 2\xi
-\end{pmatrix}
-\end{equation}
+\vdots & \vdots & \vdots & \vdots & \ddots & -1 \\ 
+0  & 0    & 0    & 0    & -1   & 2\xi 
+\end{pmatrix}_{(N-1)\times(N-1)}+
+\begin{pmatrix}
+ -1 & -1   & 0    & 0    & \cdots & 0 \\ 
+0  & 2\xi & -1   & 0    & \cdots & 0 \\ 
+0    & -1   & 2\xi & -1   & \cdots & 0 \\ 
+0    & 0    & -1   & 2\xi & \cdots & 0 \\ 
+\vdots & \vdots & \vdots & \vdots & \ddots & -1 \\ 
+-1   & 0    & 0    & 0    & -1   & 2\xi 
+\end{pmatrix}_{(N-1)\times(N-1)}+(-1)^{N+1}
+begin{pmatrix} 
+-1 & 2\xi   & -1  & 0  & 0 & 0 & \cdots & 0 \\
+ 0 & -1 & 2\xi & -1  & 0 & 0  & \cdots & 0 \\
+  0 & 0   & -1   & 2\xi & -1 & 0  & \cdots & 0 \\ 
+  0    & 0  & 0   & -1   & 2\xi & \cdots & 0 \\ 
+  \vdots & \vdots  & \vdots  & \vdots & \vdots & \vdots & \ddots & -1 \\ 
+  -1   & 0    & 0  & 0  & 0  & 0    & 0    & -1  
+\end{pmatrix}_{(N-1)\times(N-1)} $$
