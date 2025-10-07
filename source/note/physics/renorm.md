@@ -67,3 +67,8 @@ $$
 
 
 $$=2\xi\frac{\sinh N\rho}{\sinh \rho}-\frac{\sinh (N-1)\rho}{\sinh \rho}-(-1)^{2N-2}-2\xi\frac{\sinh( N-2) \rho}{\sinh \rho}+\frac{\sinh (N-3) \rho}{\sinh \rho}+(-1)^{2N-3}$$
+
+$$=\frac{\sinh (N+1)\rho}{\sinh \rho}-\frac{\sinh (N-1)\rho}{\sinh \rho}-2$$
+
+
+$$\mathcal Z = 2\sinh^{-1} N\rho/2$$
