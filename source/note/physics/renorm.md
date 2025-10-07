@@ -64,3 +64,6 @@ $$
   \vdots & \vdots  & \vdots  & \vdots & \vdots & \vdots & \ddots &-1 \\ 
   -1   & 0    & 0  & 0  & 0  & 0    & 0    & -1  
 \end{pmatrix}_{(N-1)\times(N-1)} $$
+
+
+$$=2\xi\frac{\sinh N\rho}{\sinh \rho}-\frac{\sinh (N-1)\rho}{\sinh \rho}-(-1)^{2N-2}-2\xi\frac{\sinh( N-2) \rho}{\sinh \rho}+\frac{\sinh (N-3) \rho}{\sinh \rho}+(-1)^{2N-3}$$
