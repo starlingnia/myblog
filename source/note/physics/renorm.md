@@ -70,7 +70,25 @@ $$=2\xi\frac{\sinh N\rho}{\sinh \rho}-\frac{\sinh (N-1)\rho}{\sinh \rho}-(-1)^{2
 
 $$=\frac{\sinh (N+1)\rho}{\sinh \rho}-\frac{\sinh (N-1)\rho}{\sinh \rho}-2$$
 
-$$\rho = \operatorname{arccosh} \xi$$
+$$ \rho = \rm{arccosh} \ \ \xi$$
 
 $$\mathcal Z = \frac{1}{2\sinh N\rho/2}$$
+
+对于多体理论，纯玻色气体
+
+$$\mathcal Z = \prod\frac{1}{2\sinh N\rho/2} $$
+
+
+$$ N\rho \to \beta E $$
+
+单独的玻色子，连续性极限：
+$$\mathcal Z = \frac{e^{-\beta E/2}}{1-e^{-\beta E/2}}$$
+
+
+$$\mathcal Z = \prod_{n=-\infty}^{\infty} \sqrt{\frac{1}{n^2+(\frac{\beta E}{2\pi}})^2}$$
+
+正规化：
+$$ \prod_{n=-\infty}^{\infty} \sqrt{\frac{1}{n^2+(\frac{\beta E}{2\pi}})^2} 
+= (\prod_0^\infty n)^2  \frac{1}{\frac{\beta E}{2\pi}}\prod_{1}^{\infty} \frac{1}{1+(\frac{\beta E}{2\pi n})^2}
+$$
 
