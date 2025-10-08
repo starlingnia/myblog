@@ -17,9 +17,9 @@ mathjax: true
 
 $$ Z = \left(\frac{m}{2 \pi \epsilon}\right)^{\tfrac{N}{2}} \int \prod_{n=0}^{N-1} dq_n \, e^{-S[q]} \Big|_{q_N = q_0} $$  
 
- $$ S[q] = \sum_{n=0}^{N-1} \epsilon \left[     \tfrac{1}{2} m \left( \frac{q_{n+1} - q_n}{\epsilon} \right)^2     + \tfrac{1}{4} \kappa \left( q_{n+1}^2 + q_n^2 \right) \right] $$ 
+ $$ S[q] = \sum_{n=0}^{N-1} \epsilon \left[     \tfrac{1}{2} m \left( \frac{q_{n+1} - q_n}{\epsilon} \right)^2     + \frac{1}{4} \kappa \left( q_{n+1}^2 + q_n^2 \right) \right] $$ 
 
- $$ \frac{1}{\lambda} S[q] =  \sum_{n=0}^{N-1} \xi q_n^2 -\sum_{n=0}^{N-1} \tfrac{1}{2}(q_{n+1} q_n + q_n q_{n+1}) $$
+ $$ \frac{1}{\lambda} S[q] =  \sum_{n=0}^{N-1} \xi q_n^2 -\sum_{n=0}^{N-1} \frac{1}{2}(q_{n+1} q_n + q_n q_{n+1}) $$
 
 $$ \lambda = \frac{m}{\epsilon},  \qquad  \xi = 1 + \epsilon^2 \frac{\kappa}{2m}. $$ 
 
@@ -70,5 +70,7 @@ $$=2\xi\frac{\sinh N\rho}{\sinh \rho}-\frac{\sinh (N-1)\rho}{\sinh \rho}-(-1)^{2
 
 $$=\frac{\sinh (N+1)\rho}{\sinh \rho}-\frac{\sinh (N-1)\rho}{\sinh \rho}-2$$
 
+$$\rho = \operatorname{arccosh} \xi$$
 
-$$\mathcal Z = 2\sinh^{-1} N\rho/2$$
+$$\mathcal Z = \frac{1}{2\sinh N\rho/2}$$
+
