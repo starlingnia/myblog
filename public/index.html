@@ -174,7 +174,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2025/10/05/dirac%20calc/">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/10/05/greenfer/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpg">
@@ -192,7 +192,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2025/10/05/dirac%20calc/" class="post-title-link" itemprop="url">你必须想象费米们是幸福的</a>
+          <a href="/2025/10/05/greenfer/" class="post-title-link" itemprop="url">你必须想象费米们是幸福的</a>
         </h2>
 
         <div class="post-meta-container">
@@ -210,7 +210,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2025-10-10 14:07:52" itemprop="dateModified" datetime="2025-10-10T14:07:52+08:00">2025-10-10</time>
+      <time title="Modified: 2025-10-10 14:59:32" itemprop="dateModified" datetime="2025-10-10T14:59:32+08:00">2025-10-10</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -232,555 +232,319 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>for Dirac basis (with + - - -):</p>
+          <p>srednicki notation</p>
+<p>gamma matrix:</p>
 <p><span class="math display">$$
-p\!\!\!/-m =
-\begin{pmatrix}
-p^0-m &amp; -\vec{p}\cdot\vec{\sigma}\\[6pt]
-\vec{p}\cdot\vec{\sigma} &amp; -p^0-m
-\end{pmatrix}
+    \gamma^\mu \equiv
+    \begin{pmatrix}0 &amp; \sigma_{a\dot{c}}^\mu\\
+        \bar{\sigma}^{\mu\dot{a}c} &amp; 0
+    \end{pmatrix}
 $$</span></p>
-<p>mode:</p>
-<p><span class="math display">$$
-u(\vec p )=
-\begin{pmatrix}
-(p^0+m)\phi\\[6pt]
-(\vec p\cdot\vec \sigma)\phi
-\end{pmatrix}
-$$</span></p>
-<p>for <span class="math inline"><em>p</em>   / + <em>m</em></span>:</p>
-<p><span class="math display">$$
-\begin{pmatrix}
-p^0+m &amp; -\vec p\cdot\vec \sigma\\[6pt]
-\vec p\cdot\vec \sigma &amp; - p^0+m
-\end{pmatrix}
-$$</span></p>
-<p>it could be written as:</p>
-<p><span class="math display">$$
-(p\!\!\!/ +m)
-\begin{pmatrix}
-\phi\\[6pt]
-0
-\end{pmatrix}
-$$</span></p>
-<p>so, after appreciated normalization:</p>
-<p><span class="math display">$$
-u^{(\pm)}=\mathcal{N} (p\!\!\!/ +m)
-\begin{pmatrix}
-\phi^{(\pm)}\\[6pt]
-0
-\end{pmatrix}
-$$</span></p>
-<p>we conclude:</p>
-<p><span class="math display">$$
-u=(\sqrt{p^0+m})^{-1}(p\!\!\!/ +m)
-\begin{pmatrix}
-\phi^{\pm}\\[6pt]
-0
-\end{pmatrix}
-\tag{15}
-$$</span></p>
-<p>Then,</p>
-<p><span class="math display">$$
-u^\dagger =(\sqrt{p^0+m})^{-1} \big(\phi^\pm ,\ 0\big)
-\begin{pmatrix}
-p^0+m &amp; \vec p\cdot\vec \sigma\\[6pt]
--\vec p\cdot\vec \sigma &amp; - p^0+m
-\end{pmatrix}
-$$</span></p>
-<p>Thus,</p>
-<p><span class="math display">$$
-\sum_{\pm} uu^\dagger = (p^0+m)^{-1}
-\begin{pmatrix}
-p^0+m&amp;-\vec p\cdot\vec \sigma\\[6pt]
-\vec p\cdot\vec \sigma&amp; - p^0+m
-\end{pmatrix}
-\sum_{\pm}
-\begin{pmatrix}
-\phi^{\pm}\\[6pt]
-0
-\end{pmatrix}
-(\phi^\pm ,\ 0)
-\begin{pmatrix}
-p^0+m&amp;\vec p\cdot\vec \sigma\\[6pt]
--\vec p\cdot\vec \sigma&amp; - p^0+m
-\end{pmatrix}
-$$</span></p>
-<p><span class="math display">$$
-=
-(p^0+m)^{-1}
-\begin{pmatrix}
-p^0+m&amp;-\vec p\cdot\vec \sigma\\[6pt]
-\vec p\cdot\vec \sigma&amp; - p^0+m
-\end{pmatrix}
-\begin{pmatrix}
-1_{2\times2}&amp;0\\[6pt]
-0&amp;0
-\end{pmatrix}
-\begin{pmatrix}
-p^0+m&amp;\vec p\cdot\vec \sigma\\[6pt]
--\vec p\cdot\vec \sigma&amp; - p^0+m
-\end{pmatrix}
-$$</span></p>
-<p><span class="math display">$$
-=
-(p^0+m)^{-1}
-\begin{pmatrix}
-p^0+m&amp;-\vec p\cdot\vec \sigma\\[6pt]
-\vec p\cdot\vec \sigma&amp; - p^0+m
-\end{pmatrix}
-\begin{pmatrix}
-p^0+m&amp;\vec p\cdot\vec \sigma\\[6pt]
-0&amp;0
-\end{pmatrix}
-$$</span></p>
-<p><span class="math display">$$
-=
-(p^0+m)^{-1}
-\begin{pmatrix}
-(p^0+m)^2 &amp; (p^0+m)\,\vec p\cdot\vec \sigma\\[6pt]
-(p^0+m)\,\vec p\cdot\vec \sigma &amp; (\vec p\cdot\vec \sigma)^2
-\end{pmatrix}
-$$</span></p>
-<p>Notice that <span
-class="math inline">(<em>p⃗</em> ⋅ <em>σ⃗</em>)<sup>2</sup> = <em>p⃗</em><sup> 2</sup> = (<em>p</em><sup>0</sup>)<sup>2</sup> − <em>m</em><sup>2</sup> = (<em>p</em><sup>0</sup> + <em>m</em>)(<em>p</em><sup>0</sup> − <em>m</em>)</span>.</p>
-<p><span class="math display">$$
-\sum_{\pm} uu^\dagger
-=
-\begin{pmatrix}
-p^0+m &amp; \vec p\cdot\vec \sigma\\[6pt]
-\vec p\cdot\vec \sigma &amp; p^0-m
-\end{pmatrix}
-=
-(p\!\!\!/ +m)\gamma^0
-\tag{16}
-$$</span></p>
-<p>Where</p>
-<p><span class="math display">$$
-\gamma^0=
-\begin{pmatrix}
-1_{2\times2}&amp;0\\[6pt]
-0&amp;-1_{2\times2}
-\end{pmatrix}
-$$</span></p>
-<p>By the definition: <span
-class="math inline"><em>ū</em> = <em>u</em><sup>†</sup><em>γ</em><sup>0</sup></span>.</p>
-<p>We simply get:</p>
-<p><span class="math display">$$
-\sum_{\pm} u\bar u =(p\!\!\!/ +m)\gamma^0\gamma^0=p\!\!\!/ +m
-\tag{17}
-$$</span></p>
-<p>For negative frequency <span
-class="math inline"><em>k</em> = −<em>p</em></span> case:</p>
-<p><span class="math display">$$
-p\!\!\!/ _\mu+m = -k\!\!\!/ _\mu+m=
-\begin{pmatrix}
--k^0+m &amp; \vec k\cdot\vec \sigma\\[6pt]
--\vec k\cdot\vec \sigma &amp; k^0+m
-\end{pmatrix}
-$$</span></p>
-<p>We pick up the solution</p>
-<p><span class="math display">$$
-\begin{pmatrix}
-(\vec k\cdot\vec \sigma )\chi^{\pm}\\[6pt]
-(k^0+m)\chi^{\pm}
-\end{pmatrix}
-$$</span></p>
-<p>Where</p>
-<p><span class="math display">$$
-\chi^{+}=\begin{pmatrix}1\\[2pt]0\end{pmatrix},\qquad
-\chi^{-}=\begin{pmatrix}0\\[2pt]1\end{pmatrix}.
-$$</span></p>
-<p><span class="math display">$$
-v=(\sqrt{-p^0+m})^{-1}(-p\!\!\!/ +m)
-\begin{pmatrix}
-0\\[6pt]
-\chi^{\pm}
-\end{pmatrix}
-\tag{23}
-$$</span></p>
-<p>The dagger of <span class="math inline"><em>v</em></span> will
-become:</p>
-<p><span class="math display">$$
-v^\dagger =(\sqrt{p^0+m})^{-1} \big(0,\ \chi^\pm \big)
-\begin{pmatrix}
--p^0+m &amp; -\vec p\cdot\vec \sigma\\[6pt]
-\vec p\cdot\vec \sigma &amp; p^0+m
-\end{pmatrix}
-$$</span></p>
-<p>Thus,</p>
-<p><span class="math display">$$
-\sum_{\pm} vv^\dagger = (p^0+m)^{-1}
-\begin{pmatrix}
--p^0+m &amp; \vec p\cdot\vec \sigma\\[6pt]
--\vec p\cdot\vec \sigma &amp; p^0+m
-\end{pmatrix}
-\sum_{\pm}
-\begin{pmatrix}
-0\\[6pt]
-\chi^{\pm}
-\end{pmatrix}
-(0,\ \chi^\pm)
-\begin{pmatrix}
--p^0+m &amp; -\vec p\cdot\vec \sigma\\[6pt]
-\vec p\cdot\vec \sigma &amp; p^0+m
-\end{pmatrix}
-$$</span></p>
-<p><span class="math display">$$
-=
-(p^0+m)^{-1}
-\begin{pmatrix}
--p^0+m &amp; \vec p\cdot\vec \sigma\\[6pt]
--\vec p\cdot\vec \sigma &amp; p^0+m
-\end{pmatrix}
-\begin{pmatrix}
-0 &amp; 0\\[6pt]
-0 &amp; 1_{2\times2}
-\end{pmatrix}
-\begin{pmatrix}
--p^0+m &amp; -\vec p\cdot\vec \sigma\\[6pt]
-\vec p\cdot\vec \sigma &amp; p^0+m
-\end{pmatrix}
-$$</span></p>
-<p><span class="math display">$$
-=
-(p^0+m)^{-1}
-\begin{pmatrix}
--p^0+m &amp; \vec p\cdot\vec \sigma\\[6pt]
--\vec p\cdot\vec \sigma &amp; p^0+m
-\end{pmatrix}
-\begin{pmatrix}
-0 &amp; 0\\[6pt]
-\vec p\cdot\vec \sigma &amp; p^0+m
-\end{pmatrix}
-$$</span></p>
-<p><span class="math display">$$
-=
-(p^0+m)^{-1}
-\begin{pmatrix}
-(\vec p\cdot\vec \sigma)^2 &amp; (p^0+m)(\vec p\cdot\vec \sigma)\\[6pt]
-(p^0+m)(\vec p\cdot\vec \sigma) &amp; (p^0+m)^2
-\end{pmatrix}
-$$</span></p>
-<p>Notice that <span
-class="math inline">(<em>p⃗</em> ⋅ <em>σ⃗</em>)<sup>2</sup> = <em>p⃗</em><sup> 2</sup> = (<em>p</em><sup>0</sup>)<sup>2</sup> − <em>m</em><sup>2</sup> = (<em>p</em><sup>0</sup> + <em>m</em>)(<em>p</em><sup>0</sup> − <em>m</em>)</span>.</p>
-<p><span class="math display">$$
-\sum_{\pm} vv^\dagger =
-\begin{pmatrix}
-p^0-m &amp; \vec p\cdot\vec \sigma\\[6pt]
-\vec p\cdot\vec \sigma &amp; p^0+m
-\end{pmatrix}
-= -(-p\!\!\!/ +m)\gamma^0
-\tag{24}
-$$</span></p>
-<p>Where <span class="math inline"><em>γ</em><sup>0</sup></span> as
-before.</p>
-<p>By the definition: <span
-class="math display"><em>v̄</em> = <em>v</em><sup>†</sup><em>γ</em><sup>0</sup></span>.</p>
-<p>We simply get:</p>
-<p><span class="math display">$$
-\sum_{\pm} v\bar v = -(- p\!\!\!/ +m)\gamma^0\gamma^0= p\!\!\!/ -m
-\tag{25}
-$$</span></p>
-<p>Field expansion:</p>
-<p><span class="math display">$$
-\psi(x) = \int \widetilde{dp}\ \sum _ { \pm } \Big[ b _ { \pm } ( p ) u
-^ { ( \pm ) } ( p ) e ^ { - i p x } + d ^ { ( \pm )\dagger } ( p
-)v^{(\pm)}(p) e ^ { i p x }  \Big]
-$$</span></p>
-<p>Anticommutator:</p>
-<p><span class="math display">$$
-\{ \psi , \psi^{\dagger} \} =
-\int  \widetilde {dp}\ \widetilde {d q }\Big\{
-\sum_ {\pm} b_{ \pm } u^{ (\pm)} e ^ { -ip^0t+ i\vec p\cdot\vec x }
-+ d _ { \pm } ^ { \dagger }v^{(\pm)}e ^ { ip^0t-i\vec p\cdot\vec x },\
-\sum _ { \pm } b _ { \pm } ^ { \dagger } u ^ { (\pm)\dagger } e ^ {
-iq^0t- i\vec q\cdot\vec x' } + d _ { \pm } v^{(\pm)\dagger} e ^ {
--iq^0t+i \vec q\cdot\vec x' } \Big\}
-$$</span></p>
-<p>This reduces to</p>
-<p><span class="math display">$$
-=\int
-\widetilde{dp}\ \widetilde{dq}\
-\big(2q^{0}(2\pi)^{3}\delta^{(3)}(p-q)\big)
-\sum_{\pm}\big(u_{\pm}u_{\pm}^{\dagger}e^{i\vec p\cdot(\vec x-\vec
-x')}+v_{\pm}v_{\pm}^{\dagger}e^{-i\vec p\cdot(\vec x-\vec x')}\big)
-$$</span></p>
-<p><span class="math display">$$
-=\int\widetilde{dp}\ \big[(p\!\!\!/+m)\gamma^{0}e^{i\vec p\cdot(\vec
-x-\vec x')}-(-p\!\!\!/+m)\gamma^{0}e^{-i\vec p\cdot(\vec x-\vec
-x')}\big]
-$$</span></p>
-<p>Then, we take the spatial momentum in second term to opposite
-direction:</p>
-<p><span class="math display">$$
-=\int\widetilde{dp}\
-\big[(p\!\!\!/+m)\gamma^{0}-(-p\!\!\!/+m)\big|_{\vec{p}\rightarrow-\vec{p}}\gamma^{0}\big]
-e^{i\vec p\cdot(\vec x-\vec x')}
-$$</span></p>
-<p>Compute the sum of matrices:</p>
-<p><span class="math display">$$
-\begin{pmatrix}
-p^0+m &amp; \vec{p}\cdot\vec{\sigma}\\[6pt]
-\vec{p}\cdot\vec{\sigma} &amp; p^0-m
-\end{pmatrix}
-+
-\begin{pmatrix}
-p^0-m &amp; -\vec{p}\cdot\vec{\sigma}\\[6pt]
--\vec{p}\cdot\vec{\sigma} &amp; p^0+m
-\end{pmatrix}
-= 2p^0\ \mathbf{1}_{4\times 4}
-$$</span></p>
-<p>We conclude,</p>
-<p><span class="math display">$$
-\{ \psi , \psi^{\dagger} \}=
-\left( \int\frac{d^3p}{(2\pi)^{3}} e^{i\vec p\cdot(\vec x-\vec x')}
-\right) \mathbf{1}_{4\times4}
-$$</span></p>
-<p>Thus the equal-time anticommutator component:</p>
+<p>the transformation:</p>
 <div type="math/tex; mode=display" text-align: center;>
 $$
-\{ \psi_\alpha(x) , \psi^{\dagger}_{\alpha'}(x') \}=
-\delta^{(3)}(x-x')\delta_{\alpha\alpha'}
-\tag{30}
+\left[U^{-1}(\Lambda) O_{\{\sigma\}} U(\Lambda )\right]_{\{\sigma^\prime\}}= 
+\mathcal{P}(\Lambda)^{\sigma}_{\sigma^\prime} 
+O_{\{\sigma\}} 
 $$
 </div>
-<p>Hamiltonian:</p>
+<p>what I mean here is that</p>
+<p>a change for operator itself that change its index(collection of
+coordinate and spinor index, and so on)</p>
+<p>Specifically:</p>
+<p>Lorentz transformation:</p>
 <div type="math/tex; mode=display" text-align: center;>
 $$
-H = \int d^3x\ \bar\psi(- i\gamma^j \partial_j + m)\psi
+U^{-1}(\Lambda) O_{\{\sigma,x\}} U(\Lambda )= 
+\Lambda ^{\sigma}_{\sigma^\prime} 
+O_{\{\sigma, \Lambda^{-1} x\}} 
 $$
 </div>
-<p>Expanding gives (intermediate steps):</p>
-<p><span class="math display">$$
-H = \int d^3x\ \widetilde{dp}\ \widetilde{dq}
-\sum_{\sigma,\sigma'} \Big( (b_\sigma^\dagger u_\sigma^\dagger e^{-i\vec
-q\cdot\vec x} + d_\sigma v_\sigma^\dagger e^{i\vec q\cdot\vec
-x})\gamma^0\big((\gamma^j p^j + m) b_{\sigma'} u_{\sigma'} e^{i\vec
-p\cdot\vec x} + (-\gamma^j p^j + m) d_{\sigma'}^\dagger v_{\sigma'}
-e^{-i\vec p\cdot\vec x}\big)\Big)
-$$</span></p>
-<p>Notice that:</p>
-<p><span class="math display">$$
-\sum_{\sigma,\sigma'} u_{\sigma}^\dagger\gamma^0(\gamma^j p^j +
-m)u_{\sigma'}
-= \sum_{\sigma,\sigma'}
-\frac{\big((p^0+ m )\phi^\sigma,\
--\vec{p}\cdot\vec{\sigma}\phi^\sigma\big)}
-{(p^0+m)}
-\begin{pmatrix}
-m &amp; \vec{p}\cdot\vec{\sigma}\\[6pt]
--\vec{p}\cdot\vec{\sigma} &amp; m
-\end{pmatrix}
-\begin{pmatrix}
-(p^0+m)\phi^{\sigma'}\\[6pt]
-\vec{p}\cdot\vec{\sigma}\phi^{\sigma'}
-\end{pmatrix}
-$$</span></p>
-<p>Working out the product:</p>
-<p><span class="math display">$$
-= \sum_{\sigma,\sigma'} \frac{\big((p^0+ m )\phi^\sigma,\
--\vec{p}\cdot\vec{\sigma}\phi^\sigma\big)}
-{(p^0+m)}
-\begin{pmatrix}
-m( p^0+m)\phi^{\sigma'}+((p^0)^2-m^2)\phi^{\sigma'}\\[6pt]
--p^0\ \vec{p}\cdot\vec{\sigma}\phi^{\sigma'}
-\end{pmatrix}
-$$</span></p>
-<p>Using orthonormality of <span
-class="math inline"><em>ϕ</em><sup><em>σ</em></sup></span>’s, this
-becomes:</p>
+<p>orbital anglar momentum operator:</p>
 <div type="math/tex; mode=display" text-align: center;>
 $$
-= \sum_{\sigma,\sigma'} \delta_{\sigma,\sigma'}\big(m(p^0+m)+((p^0)^2-m^2)+p^0(p^0-m)\big)
-= \sum_{\sigma,\sigma'} \delta_{\sigma,\sigma'} 2(p^0)^2
+\mathcal{L}^{\mu\nu}\equiv
+ - i\hbar(x^\mu\partial^\nu-x^\nu\partial^\mu)
 $$
 </div>
-<p>Similarly, u modes orthonormal to v modes, and</p>
 <div type="math/tex; mode=display" text-align: center;>
 $$
-\sum_{\sigma,\sigma'} v_{\sigma}^\dagger\gamma^0(-\gamma^j p^j + m)v_{\sigma'}
-= \sum_{\sigma,\sigma'} \delta_{\sigma,\sigma'}(-2(p^0)^2)
+e^{-i \omega_{\mu \nu } \mathcal{M}^{\mu \nu }}\phi_{\sigma}
+e^{i \omega_{\mu \nu } \mathcal{M}^{\mu \nu }} = \mathcal{J}[\mathcal{M}]^a_b \phi_{\sigma}
 $$
 </div>
-<p>So, after integration of <span class="math inline"><em>x</em></span>
-and <span class="math inline"><em>q</em></span> we get only <span
-class="math inline"><em>p</em> = <em>q</em></span> terms, and
-conclude:</p>
+<p>a,b means some transformation for index <span
+class="math inline"><em>σ</em></span></p>
+<div type="math/tex; mode=display" text-align: center;>
+$$
+i [\phi,\mathcal{M}^{\mu \nu }  ]
+=i\mathcal{L}^{\mu \nu }\phi+i
+\mathcal{S}^{\mu \nu }\phi
+$$
+</div>
+<p>useful formula:</p>
 <p><span class="math display">$$
-H = \int \widetilde{dp}\ p^0 \sum_\sigma \big(b^\dagger_\sigma b_\sigma
-- d_\sigma d^\dagger_\sigma \big)
+\vartheta (x^0-y^0) = \int_{\mathcal C}
+\frac{d \omega }{2\pi i} \frac{e^{i \omega (x^0-y^0)}}{\omega - i
+\epsilon }
 $$</span></p>
-<p>Reordering anticommutators:</p>
+<p>boson:</p>
 <p><span class="math display">$$
-H = \int \widetilde{dp}\ p^0 \sum_\sigma \big(b^\dagger_\sigma b_\sigma
-+ d^\dagger_\sigma d_\sigma - 2p^0(2\pi)^3\delta(0)\big)
-\tag{32}
+\bra{\mathrm{ground}} \mathcal{T} \phi(x)\phi(y)
+\ket{\mathrm{ground}}
 $$</span></p>
-<p>Fermion Green function (time-ordered):</p>
 <p><span class="math display">$$
-\langle \mathrm{ground}\vert \mathcal{T}\psi(x) \overline{\psi(y)}\vert
-\mathrm{ground}\rangle
-= \Theta (x^0-y^0)
-\langle \mathrm{ground}\vert\psi(x)\overline{\psi(y)}\vert
-\mathrm{ground}\rangle
-- \Theta (y^0-x^0)
-\langle \mathrm{ground}\vert\overline{\psi(y)}\psi(x)\vert
-\mathrm{ground}\rangle
+=\vartheta (x^0-y^0)
+\bra{\mathrm{ground}}\phi(x)\phi(y)
+\ket{\mathrm{ground}}
++\vartheta (y^0-x^0)
+\bra{\mathrm{ground}}\phi(y)\phi(x)
+\ket{\mathrm{ground}}
 $$</span></p>
-<p>With mode expansion:</p>
+<p>dyson equation:</p>
 <p><span class="math display">$$
-\psi(x)=\sum_{s=\pm}\int\widetilde{dp}\
-\big[b_s(\mathbf{p})u_s(\mathbf{p})e^{-ipx} +
-d_s^\dagger(\mathbf{p})v_s(\mathbf{p})e^{ipx}\big]
+\bra{\mathrm{ground}} \frac{\delta S}{\delta \phi }
+\cdot \mathrm{polynomial}[\phi]
+\ket{\mathrm{ground}}
+=i\cdot \mathrm{contact\ term }
 $$</span></p>
-<p>For the second term (with <span
-class="math inline"><em>Θ</em>(<em>y</em><sup>0</sup> − <em>x</em><sup>0</sup>)</span>),
-evaluate:</p>
+<p>that’s non-perturbative for Green function</p>
+<p>For free theory or for interacting picture, we have</p>
 <p><span class="math display">$$
-\Theta(y^0-x^0)
-\langle \mathrm{ground}\vert\overline{\psi(y)}\psi(x)\vert
-\mathrm{ground}\rangle
-= \int_{\mathcal C} \frac{d\omega}{2\pi i} \frac{e^{i\omega
-(y^0-x^0)}}{\omega - i \epsilon}
-\times \int \widetilde{dp}\, \widetilde{dp'}\ \langle
-d_sd^\dagger_s\rangle\ v_s\bar v_s\ e^{-ip y + i p' x}
+\varphi(\mathbf{x},t)=\int\frac{d^3k}{2\omega}
+\left[a(\mathbf{k})e^{i\mathbf{k}\cdot\mathbf{x}-
+i\omega t}+a^\dagger(\mathbf{k})e^{i\mathbf{k}
+\cdot\mathbf{x}+i\omega t}\right]
 $$</span></p>
-<p>Using <span
-class="math inline">⟨<em>d</em><sub><em>s</em></sub><em>d</em><sub><em>s</em></sub><sup>†</sup>⟩ = {<em>d</em><sub><em>s</em></sub>, <em>d</em><sub><em>s</em></sub><sup>†</sup>} = 2<em>p</em><sup>0</sup>(2<em>π</em>)<sup>3</sup><em>δ</em><sup>3</sup>(<em>p</em> − <em>p</em><sup>′</sup>)</span>
-and <span
-class="math inline"><em>v</em><sub><em>s</em></sub><em>v̄</em><sub><em>s</em></sub> = <em>p</em>   / − <em>m</em></span>,
-we get:</p>
+<p>in this case:</p>
 <p><span class="math display">$$
-G_A = -\int_{\mathcal C} \frac{d\omega}{2\pi i}
-\frac{e^{i(\omega-p^0)(y^0-x^0)}}{\omega - i\epsilon}
-\times \int \frac{d^3p}{(2\pi)^3 2p^0} (p\!\!\!/-m)
-e^{i\mathbf{p}\cdot(\mathbf{y}-\mathbf{x})}
-$$</span></p>
-<p>Set <span
-class="math inline"><em>ℓ</em> = <em>ω</em> − <em>p</em><sup>0</sup></span>
-(change variable), so</p>
-<p><span class="math display">$$
-G_A = -\int_{\mathcal C} \frac{d\ell}{2\pi i} \frac{e^{-i\ell
-(y^0-x^0)}}{p^0-\ell - i\epsilon}
-\times \int \frac{d^3p}{(2\pi)^3 2p^0} (p\!\!\!/-m)
-e^{i\mathbf{p}\cdot(\mathbf{y}-\mathbf{x})}
-$$</span></p>
-<p>Similarly,</p>
-<p><span class="math display">$$
-G_R = \int_{\mathcal C} \frac{d\ell}{2\pi i} \frac{e^{-i\ell
-(x^0-y^0)}}{p^0-\ell - i\epsilon}
-\times \int \frac{d^3p}{(2\pi)^3 2p^0} (p\!\!\!/+m)
-e^{i\mathbf{p}\cdot(\mathbf{x}-\mathbf{y})}
-$$</span></p>
-<p>Define <span
-class="math inline">𝒢 = <em>G</em><sub><em>A</em></sub> + <em>G</em><sub><em>R</em></sub></span>
-(full propagator)</p>
-<p>We can rewrite <span
-class="math inline"><em>G</em><sub><em>A</em></sub></span> also as:</p>
-<p><span class="math display">$$
-G_A = -\int_{\mathcal C} \frac{d\ell}{2\pi i} \frac{e^{-i\ell
-(x^0-y^0)}}{p^0+\ell - i\epsilon}
-\times \int \frac{d^3p}{(2\pi)^3 2p^0} (p\!\!\!/-m)\big|_{\vec
-p\rightarrow -\vec p}\ e^{i\mathbf{p}\cdot(\mathbf{x}-\mathbf{y})}
-$$</span></p>
-<p>Using the identity (pole decomposition)</p>
-<p><span class="math display">$$
-\frac{1}{p^0-\omega - i\epsilon}
-= \mathcal{P}\frac{p^0+\omega}{(p^0)^2-\omega^2} + \pi
-i\delta(p^0-\omega - i\epsilon)
-$$</span></p>
-<p>we separate principal value and delta contributions, which identifies
-poles and leads to contour choices. After some algebra (grouping terms),
-we obtain:</p>
-<p><span
-class="math display">𝒢 = <em>G</em><sub><em>A</em></sub> + <em>G</em><sub><em>R</em></sub></span></p>
-<p><span class="math display">$$
+\vartheta (x^0-y^0)
+\bra{\mathrm{ground}}\varphi(x)\varphi(y)
+\ket{\mathrm{ground}}
 =
-\mathcal{P}\int_{\mathcal C}
-\frac{d\ell}{2\pi i}\frac{d^3p}{(2\pi)^3 2p^0}
-\frac{e^{-i\ell
-(x^0-y^0)}e^{i\mathbf{p}\cdot(\mathbf{x}-\mathbf{y})}}{(p^0)^2-\ell^2}
-\Big(
-(p^0+\ell)
-\begin{pmatrix}
-p^0+m &amp; -\vec p\cdot\vec\sigma\\[6pt]
-\vec p\cdot\vec\sigma &amp; -p^0+m
-\end{pmatrix}
--
-(p^0-\ell)
-\begin{pmatrix}
-p^0-m &amp; \vec p\cdot\vec\sigma\\[6pt]
--\vec p\cdot\vec\sigma &amp; -p^0-m
-\end{pmatrix}
-\Big)
+\int_\mathcal{C}
+\frac{d \ell}{2\pi i}
+\frac{e^{i \ell (x^0-y^0)}}
+{\ell - i \epsilon }
+\int \widetilde{dp} \widetilde{d p^\prime}
+e^{ipx-ip^\prime
+y}\bra{\Omega}{a(\mathbf{p})a^\dagger(\mathbf{p^\prime})}\ket{\Omega }
+$$</span></p>
+<p>this is the free retard wightman function G<span
+class="math inline"><sub>−</sub></span>.</p>
+<p>apply the commulation relation:</p>
+<p><span class="math display">$$
+\bra{\Omega}{a(\mathbf{p})a^\dagger(\mathbf{p^\prime})}\ket{\Omega }
+=2p^0(2\pi)^3\delta^{(3)}(p-p^\prime)
 $$</span></p>
 <p><span class="math display">$$
-+
-\int_{\mathcal C}
-\frac{d\ell}{2\pi i}\frac{d^3p}{(2\pi)^3 2p^0}
-e^{-i\ell (x^0-y^0)}e^{i\mathbf{p}\cdot(\mathbf{x}-\mathbf{y})}
-\big( \pi i\delta(\ell-p^0+i\epsilon)(p\!\!\!/-m) + \pi
-i\delta(\ell+p^0-i\epsilon)(p\!\!\!/+m)\big)
-$$</span></p>
-<p>After simplifying the principal-value integrand:</p>
-<p><span class="math display">$$
+\mathrm{G}_R=
+\int_\mathcal{C}
+\frac{d \ell}{2\pi i}
+\frac{e^{i \ell (x^0-y^0)}}
+{\ell - i \epsilon }
+\int \widetilde{d p}\ e^{ip(x-y)}
 =
-\mathcal{P}\int_{\mathcal C}
-\frac{d\ell}{2\pi i}\frac{d^3p}{(2\pi)^3 2p^0}
-\frac{e^{-i\ell
-(x^0-y^0)}e^{i\mathbf{p}\cdot(\mathbf{x}-\mathbf{y})}}{(p^0)^2-\ell^2}
-\Big(
-2p^0
-\begin{pmatrix}
-0 &amp; -\vec p\cdot\sigma\\[6pt]
-\vec p\cdot\sigma &amp; 0
-\end{pmatrix}
-+
-\begin{pmatrix}
-2p^0 m + 2p^0 \ell &amp; 0\\[6pt]
-0 &amp; -2p^0 \ell + 2p^0 m
-\end{pmatrix}
-\Big)
+\int_\mathcal{C}
+\frac{d \ell}{2\pi i}\widetilde{d p}
+\frac{e^{i( \ell -p^0)(x^0-y^0)+i\mathbf{p}(\mathbf{x}-\mathbf{y})}}
+{\ell - i \epsilon }
 $$</span></p>
 <p><span class="math display">$$
-+
-\int_{\mathcal C}
-\frac{d\ell}{2\pi i}\frac{d^3p}{(2\pi)^3 2p^0}
-e^{-i\ell (x^0-y^0)}e^{i\mathbf{p}\cdot(\mathbf{x}-\mathbf{y})}
-\big( \pi i\delta(\ell-p^0+i\epsilon)(p\!\!\!/-m) + \pi
-i\delta(\ell+p^0-i\epsilon)(p\!\!\!/+m)\big)
+= \int_\mathcal{C}
+\frac{d \omega dp }{(2\pi)^{4}}
+\frac{e^{-i\omega(x^0-y^0)+i\mathbf{p}(\mathbf{x}-\mathbf{y})}}
+{p^0 -\omega- i \epsilon }\cdot\left(-i(2p^0)^{-1}\right)
 $$</span></p>
-<p>Rewrite principal part more compactly (change measure to full
-4d):</p>
+<p>same caculation for advanced wightman function:</p>
 <p><span class="math display">$$
-=
-\mathcal{P}\int_{\mathcal C}
-\frac{d\ell}{2\pi}\frac{d^3p}{(2\pi)^3}
-\frac{i e^{-i\ell (x^0-y^0)}
-e^{i\mathbf{p}\cdot(\mathbf{x}-\mathbf{y})}}
-{\ell^2 - \vec p^{\,2} - m^2}
-\begin{pmatrix}
-\ell + m &amp; -\vec p\cdot\sigma\\[6pt]
-\vec p\cdot\sigma &amp; -\ell + m
-\end{pmatrix}
+\mathrm{G}_+=
+\int_\mathcal{C}
+\frac{d \omega dp }{(2\pi)^{4}}
+\frac{e^{-i\omega(y^0-x^0)+i\mathbf{p}(\mathbf{y}-\mathbf{x})}}
+{p^0 -\omega- i \epsilon }\cdot\left(-i(2p^0)^{-1}\right)
+$$</span></p>
+<p>we apply a transformation that: <span
+class="math inline"><em>ω</em>, <strong>p</strong> → −<em>ω</em>, −<strong>p</strong></span></p>
+<p><span class="math display">$$
+\mathrm{G}_A
+= \int_\mathcal{C}
+\frac{d \omega dp }{(2\pi)^{4}}
+\frac{e^{-i\omega(x^0-y^0)+i\mathbf{p}(\mathbf{x}-\mathbf{y})}}
+{p^0 +\omega- i \epsilon }\cdot\left(-i(2p^0)^{-1}\right)
+$$</span></p>
+<p>then apparently,</p>
+<p>apply formula that :</p>
+<p><span class="math display">$$\frac{1}{p^0-\omega-i \epsilon}
+=\frac{p^0+\omega}{(p^0)^2-\omega^2-2i\omega\epsilon+ \epsilon ^2}+i
+\frac{\epsilon }{(p^0)^2-\omega^2-2i\omega\epsilon+ \epsilon ^2}
+$$</span></p>
+<p>we do approximation up to <span
+class="math inline"><em>ϵ</em></span> : </p>
+<p><span class="math display">$$\frac{1}{p^0-\omega-i \epsilon}
+=\frac{p^0+\omega}{(p^0)^2-\omega^2}+2\pi i \delta(p^0-\omega)
+$$</span></p>
+<p>feyman Green function, or causual Green function:</p>
+<div type="math/tex; mode=display" text-align: center;>
+$$
+\mathcal{G}= G_A+G_R
+$$
+</div>
+<p><span class="math display">$$
+=\int_\mathcal{C}
+\frac{d \omega dp }{(2\pi)^{4}}
+\frac{e^{-i\omega(x^0-y^0)+i\mathbf{p}(\mathbf{x}-\mathbf{y})}}
+{(p^0)^2-\omega^2}\cdot 2p^0
+\cdot\left(-i(2p^0)^{-1}\right)
 $$</span></p>
 <p><span class="math display">$$
-+
-\int_{\mathcal C}
-\frac{d\ell}{2\pi i}\frac{d^3p}{(2\pi)^3 2p^0}
-e^{-i\ell (x^0-y^0)}e^{i\mathbf{p}\cdot(\mathbf{x}-\mathbf{y})}
-\big( \pi i\delta(\ell-p^0+i\epsilon)(p\!\!\!/-m) + \pi
-i\delta(\ell+p^0-i\epsilon)(p\!\!\!/+m)\big)
++i\cdot\int_\mathcal{C}
+\frac{d \omega dp }{(2\pi)^{4}}
+e^{-i\omega(x^0-y^0)+i\mathbf{p}(\mathbf{x}-\mathbf{y})}\cdot
+\left(-i(2p^0)^{-1}\right)\cdot
+\left(2\pi\delta(p^0-\omega)+2\pi\delta(p^0+\omega)\right)
 $$</span></p>
-<p>Finally, combining and restoring full 4-momentum measure:</p>
+<p>one can check that, this is exactly the expression:</p>
 <p><span class="math display">$$
-\mathcal{G}(x-y) = \int \frac{d^4 p}{(2\pi)^4}\ \frac{i\,
-e^{-ip\cdot(x-y)}}{p\!\!\!/-m+i\epsilon}
-\tag{39}
+\mathcal{G}= \int_{\mathcal{F}} \frac{d^4 p}{(2\pi)^4} \frac{-i}
+{p^2+m^2}
+e^{-i\omega(x^0-y^0)+i\mathbf{p}(\mathbf{x}-\mathbf{y})}
 $$</span></p>
-<hr />
-<p>(End of notes)</p>
+<p>for fermion case:</p>
+<p><span class="math display">$$
+\bra{\mathrm{ground}} \mathcal{T} \overline{\psi(x)}\psi(y)
+\ket{\mathrm{ground}}
+$$</span></p>
+<p><span class="math display">$$
+=\vartheta (x^0-y^0)
+\bra{\mathrm{ground}}\overline{\psi(x)}\psi(y)
+\ket{\mathrm{ground}}
+-\vartheta (y^0-x^0)
+\bra{\mathrm{ground}}\psi(y)\overline{\psi(x)}
+\ket{\mathrm{ground}}
+$$</span></p>
+<p>the free theory or the interacting picture has expansion:</p>
+<p><span class="math display">$$
+\psi(x)=\sum_{s=\pm}\int\widetilde{dp}
+\left[b_s(\mathbf{p})u_s(\mathbf{p})e^{ipx}
++d_s^\dagger(\mathbf{p})v_s(\mathbf{p})e^{-ipx}\right]
+$$</span></p>
+<p>for this femion Green function:</p>
+<p><span class="math display">$$
+\vartheta (x^0-y^0)
+\bra{\mathrm{ground}}\overline{\psi(x)}\psi(y)
+\ket{\mathrm{ground}}
+=\int_{\mathcal C}
+\frac{d \omega }{2\pi i} \frac{e^{i \omega (x^0-y^0)}}{\omega - i
+\epsilon }
+\times\int \widetilde{dp} \widetilde{d p^\prime}
+\left(\langle
+d_sd^\dagger_s
+\rangle v_s \bar{v}_s e^{ipx-ip^\prime y}
+\right)
+$$</span></p>
+<p>for srednicki, we have:</p>
+<div type="math/tex; mode=display" text-align: center;>
+$$
+\langle
+d_sd^\dagger_s
+\rangle
+=\langle
+\{d_s,d^\dagger_s\}
+\rangle
+=2p^0(2\pi)^3\delta^3(p-p^\prime)
+$$
+</div>
+<p><span class="math display">$$
+v_s \bar{v_s} = -p\!\!\!/-m
+$$</span></p>
+<p>thus,</p>
+<p><span class="math display">$$
+G_R = \int_{\mathcal C}
+\frac{d \omega }{2\pi i} \frac{e^{i(\omega-p^0) (x^0-y^0)}}{\omega - i
+\epsilon }
+\times \int \frac{d^3 p}{(2\pi)^32p^0}(-p\!\!\!/-m)
+e^{i\mathbf{p}(\mathbf{x}-\mathbf{y})}
+$$</span></p>
+<p><span class="math display">$$
+=\int_{\mathcal C}
+\frac{d \ell }{2\pi i} \frac{e^{-i\ell (x^0-y^0)}}{p^0-\ell- i \epsilon
+}
+\times \int \frac{d^3
+p}{(2\pi)^32p^0}(-p\!\!\!/-m)e^{i\mathbf{p}(\mathbf{x}-\mathbf{y})}
+$$</span></p>
+<p><span class="math display">$$
+G_A
+=-\int_{\mathcal C}
+\frac{d \ell }{2\pi i} \frac{e^{-i\ell (y^0-x^0)}}{p^0-\ell- i \epsilon
+}
+\times \int \frac{d^3
+p}{(2\pi)^32p^0}(-p\!\!\!/+m)e^{i\mathbf{p}(\mathbf{y}-\mathbf{x})}
+$$</span></p>
+<p><span class="math display">$$
+=-\int_{\mathcal C}
+\frac{d \ell }{2\pi i} \frac{e^{-i\ell (x^0-y^0)}}{p^0+\ell- i \epsilon
+}
+\times \int \frac{d^3 p}{(2\pi)^3 2p^0}(-p\!\!\!/+m)|_{\mathbf p
+\rightarrow - \mathbf p}e^{i\mathbf{p}(\mathbf{x}-\mathbf{y})}
+$$</span></p>
+<p><span class="math display">$$\frac{1}{p^0-\omega-i \epsilon}
+=\frac{p^0+\omega}{(p^0)^2-\omega^2-2i\omega\epsilon+ \epsilon ^2}+i
+\frac{\epsilon }{(p^0)^2-\omega^2-2i\omega\epsilon+ \epsilon ^2}
+$$</span></p>
+<div type="math/tex; mode=display" text-align: center;>
+$$
+\mathcal{G}=G_A+G_R
+$$
+</div>
+<p><span class="math display">$$
+=\int_{\mathcal C}
+\frac{d \ell }{2\pi }\frac{d^3 p}{(2\pi)^32p^0}
+\frac{-ie^{ip(x-y)}}{(p^0)^2-\ell^2}\left(
+(p^0+\ell)(-p\!\!\!/-m)-(p^0-\ell)(-p\!\!\!/+m)|_{\mathbf p \rightarrow
+- \mathbf p}\right)
+$$</span></p>
+<p><span class="math display">$$
+=\int_{\mathcal C}
+\frac{d \ell }{2\pi }\frac{d^3 p}{(2\pi)^32p^0}
+\frac{-ie^{ip(x-y)}}{(p^0)^2-\ell^2}\left(
+(p^0+\ell)\left(
+    \begin{array}{cc}
+        -m&amp;p^0-p\cdot \sigma \\
+   p^0+ p\cdot \sigma&amp;-m
+    \end{array}
+\right)-(p^0-\ell)\left(
+    \begin{array}{cc}
+        m&amp;p^0+p\cdot \sigma \\
+   p^0- p\cdot \sigma&amp;m
+    \end{array}
+\right)\right)
+$$</span></p>
+<p><span class="math display">$$
+=\int_{\mathcal C}
+\frac{d \ell }{2\pi }\frac{d^3 p}{(2\pi)^32p^0}
+\frac{-ie^{ip(x-y)}}{(p^0)^2-\ell^2}(\left(
+    \begin{array}{cc}
+       -2mp^0 &amp; 2\ell p^0-2p^0 p\cdot \sigma \\
+   2\ell p^0+ 2p^0 p\cdot \sigma&amp;-2mp^0
+    \end{array}
+\right))
+$$</span></p>
+<p><span class="math display">$$
+=\int\frac{d^4 p}{(2\pi)^4} \frac{-ie^{ip(x-y)}}{p\!\!\!/-m}
+$$</span></p>
+<p>the same caculation applied for</p>
+<div type="math/tex; mode=display" text-align: center;>
+$$\bra{\mathrm{ground}} \mathcal{T} \psi(x)\overline{\psi(y)}
+\ket{\mathrm{ground}}$$
+</div>
+<p>just assign an negative sign before mass, we got result:</p>
+<div type="math/tex; mode=display" text-align: center;>
+$$
+\mathcal{G}=
+\int\frac{d^4 p}{(2\pi)^4} \frac{-ie^{ip(x-y)}}{p\!\!\!/+m} 
+$$
+</div>
 
       
     </div>
