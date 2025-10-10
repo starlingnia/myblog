@@ -12,7 +12,7 @@ date: 2025-08-29 11:23:39
 - [线性代数](/note/math/linear-algebra)
 - [微积分](./math/calculus)
 
-# 物理
+# 物理[click](./physics)
 - [力学](./physics/manybody)
 - [光学](../note/physics/manybody)
 
