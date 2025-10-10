@@ -78,8 +78,10 @@ $$\mathcal Z = \frac{1}{2\sinh N\rho/2}$$
 
 $$\mathcal Z = \prod\frac{1}{2\sinh N\rho/2} $$
 
-
-$$ N\rho \to \beta E $$
+```{=tex}
+$$
+N\rho \to \beta E
+$$
 
 单独的玻色子，连续性极限：
 $$\mathcal Z = \frac{e^{-\beta E/2}}{1-e^{-\beta E/2}}$$
